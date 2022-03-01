@@ -8,6 +8,9 @@ namespace BaseNetCoreClassProject1.Interfaces
 {
     public interface IBase
     {
+        /// <summary>
+        /// This is the primary key
+        /// </summary>
         public int Id { get; }
     }
 
